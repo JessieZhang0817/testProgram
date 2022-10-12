@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+.navigation {
+    height: 80px;
+    width: 350px;
+    background-color: white;
+    margin: 335px auto;
+}
+
+.navigation ul {}
+
+.navigation ul li {
+    float: left;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    /* margin-top: 20px; */
+    /* line-height: 70px; */
+    text-align: center;
+}
+
+.navigation ul li:hover {
+    background-color: green;
+}
+
+/* 鼠标放置其上时图标变大，离开时图像变小 */
+.navigation ul li:hover a ion-icon {
+    font-size: 30px;
+}
+
+.navigation ul li a .words {
+    margin-top: 15px;
+}
